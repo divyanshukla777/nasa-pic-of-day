@@ -86,7 +86,7 @@ p {
     <section class="article">
       <% if(gallery.media_type=='image'){%>
       <div style="width:100%;height:500px;">
-      <img src="<%= gallery.url %>" style="width:100%;height:100%;" alt="home layout">
+      <img src="<%= gallery.hdurl %>" style="width:100%;height:100%;" alt="home layout">
     </div>
     <%}else{%>
       <iframe width="100%" height="500px" src="<%= gallery.url %>">
